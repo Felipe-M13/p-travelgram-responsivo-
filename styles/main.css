@@ -1,0 +1,21 @@
+.profile {
+  max-width: 340px;
+  margin: 2rem;
+}
+
+.profile img {
+  width: 120px;
+  height: 120px;
+}
+
+.profile p {
+  color: var(--text-color-secondary);
+  font: var(--text-md);
+}
+
+.profile h1 {
+  color: var(--text-color-primary);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+
+}
