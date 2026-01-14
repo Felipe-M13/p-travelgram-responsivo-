@@ -33,3 +33,23 @@
   align-items: center;
   gap: 0.75rem;
 }
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0 auto;
+  max-width: 328px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  padding: 1rem 1rem 2rem;
+  text-align: center;
+  color: var(--text-color-secondary);
+  font-size: 14px;
+}
