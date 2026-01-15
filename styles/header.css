@@ -16,7 +16,25 @@ nav img:nth-child(1) {
   height: 24px;
 }
 
-nav img:nth-child(2) {
+nav img:nth-child(3) {
   width: 40px;
   height: 40px;
+}
+
+@media (min-width: 1280px) {
+  .menu-links {
+    display: flex;
+    gap: 2rem;
+  }
+
+  header {
+  display: flex;
+  margin: 0.75rem;
+  }
+   
+  a {
+  color: var(--text-color-secondary);
+  font: var(--text-md);
+  text-decoration: none;
+  }
 }

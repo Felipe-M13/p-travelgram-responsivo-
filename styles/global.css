@@ -25,3 +25,7 @@ body {
   color: var(--text-color-secondary);
   background-color: var(--background-color);
 }
+
+.menu-links {
+  display: none;
+}
