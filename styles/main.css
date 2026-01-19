@@ -17,7 +17,11 @@
   color: var(--text-color-primary);
   padding-bottom: 1rem;
   padding-top: 1rem;
+}
 
+.about p {
+  max-width: 296px;
+  line-height: 170%;
 }
 
 
@@ -54,3 +58,4 @@ footer {
   color: var(--text-color-secondary);
   font-size: 14px;
 }
+

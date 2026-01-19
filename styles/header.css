@@ -21,7 +21,7 @@ nav img:nth-child(3) {
   height: 40px;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
   .menu-links {
     display: flex;
     gap: 2rem;
@@ -31,10 +31,36 @@ nav img:nth-child(3) {
   display: flex;
   margin: 0.75rem;
   }
-   
+
   a {
   color: var(--text-color-secondary);
   font: var(--text-md);
   text-decoration: none;
   }
+
+  .profile {
+    display: flex;
+    
+  }
+
+  .profile img {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0
+  } 
+
+  .about {
+    outline: 1px red solid;
+    margin-left: 2rem;
+    margin-top: -1rem;
+
+    width: 350px;
+    flex: 0 0 auto;
+  }
+
+  .about span {
+  font: var(--text-md);
+  
+  }
+
 }
