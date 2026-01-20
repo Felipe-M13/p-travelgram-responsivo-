@@ -96,4 +96,16 @@ nav img:nth-child(3) {
   width: 100%;
   height: auto;
 }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+  }
+
+  .links {
+    display: flex;
+    gap: 1.5rem
+  }
 }
